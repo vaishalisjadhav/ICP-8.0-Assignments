@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>Card Design</title>
+    <style>
+        .container{
+            display: inline-block;
+            
+        }
+        .cards{
+            background-color: cornsilk;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .cards img{
+            height: 200px;
+            width: 350px;
+            padding: 10px;
+
+        }
+        .cards h1{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+       
+        .cards button{
+            margin-left: 140px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 2px;
+            background-color: burlywood;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="cards">
+            <h1>SCORPIO</h1>
+            <img src="scorpio.jpeg" alt="scorpio"><br>
+            <button>Buy Now</button>
+        </div><br>
+
+        <div class="cards">
+            <h1>VERNA</h1>
+            <img src="verna.jpeg" alt="verna"><br>
+            <button>Buy Now</button>
+        </div><br>
+
+        <div class="cards">
+            <h1>CREATA</h1>
+            <img src="creata.jpeg" alt="creata"><br>
+            <button>Buy Now</button>
+        </div>
+    </div>
 </body>
 </html>
