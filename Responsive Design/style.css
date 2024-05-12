@@ -36,4 +36,11 @@
     margin-left: 65px;
 }
 
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container-box{
+        display: inline;
+    }
+}
+
+
   
