@@ -1,11 +1,39 @@
 .container-box{
     display: flex;
+    justify-content: center;
 }
 .container{
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 250px;
     margin: 20px;
-    padding: 30px;
 }
+.container img{
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    margin-left: 80px;
+}
+.container h1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.container p{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.container button{
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 65px;
+}
+
+  
