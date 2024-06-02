@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222831;
+    padding: 15px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.navbar-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-page-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-page-links li {
+    margin: 0 10px;
+}
+
+.navbar-page-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar-page-links a:hover {
+    color: #00ADB5;
+}
+
+.background-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.background-img img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.background-img h3 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    text-align: center;
+    color: #222831;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.background-img span {
+    color: #00ADB5;
+}
+
+.background-img .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    color: #393E46; 
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
